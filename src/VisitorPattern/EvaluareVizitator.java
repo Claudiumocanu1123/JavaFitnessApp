@@ -1,6 +1,9 @@
+package VisitorPattern;
+
+import StatsUtilizatori.Utilizator;
+import StatsUtilizatori.Statistici;
 import java.util.ArrayList;
 import java.util.List;
-
 public class EvaluareVizitator implements Visitor {
 
     public void visit(Utilizator utilizator) {

@@ -1,4 +1,6 @@
-import java.util.ArrayList;
+package StatsUtilizatori;
+
+import VisitorPattern.Visitor;
 
 public class Statistici extends Utilizator implements Comparable<Utilizator> {
 
