@@ -224,10 +224,12 @@ public class Utilizator implements Visitable {
 
     public void giveTheExperience() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Felictari ati trecut de primul pas ati intrat in cont, acum imi puteti spune experienta dumneavoastra pentru a va crea planul de antrenament: ");
+        System.out.println("Felictari ati trecut de primul pas ati intrat in cont, acum imi puteti spune experienta" +
+                " dumneavoastra pentru a va crea planul de antrenament: ");
         int experience1 = sc.nextInt();
         if (experience1 == this.experience) {
-            System.out.println("Planul de antrenament pentru experienta dumneavosatra de " + getExperience() + ": ");
+            System.out.println("Planul alimentar si planul de antrenament pentru experienta dumneavosatra de "
+                    + getExperience() + ": ");
         }
     }
 }
