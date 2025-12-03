@@ -5,7 +5,7 @@ import BuilderPattern.PlanAlimentar;
 public class MealFactory {
     public static PlanAlimentar createPlanAlimentar(MealType mealType) {
         switch (mealType) {
-            case CUTTING:  return new PlanAlimentar.Builder("salată", "grepfruit", "pui", "fără sare")
+            case CUTTING: return new PlanAlimentar.Builder("salată", "grepfruit", "pui", "fără sare")
                     .ovaz(1)
                     .gratar(1)
                     .desert(0)
@@ -17,7 +17,7 @@ public class MealFactory {
                     .gratar(2)
                     .desert(1)
                     .build();
-            case MAINTENANCE:    return new PlanAlimentar.Builder("legume mixte", "mere", "curcan", "puțină sare")
+            case MAINTENANCE: return new PlanAlimentar.Builder("legume mixte", "mere", "curcan", "puțină sare")
                     .omleta(1)
                     .gratar(1)
                     .ovaz(1)

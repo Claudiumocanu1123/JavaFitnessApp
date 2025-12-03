@@ -17,11 +17,9 @@ public class EvaluareVizitator implements Visitor {
         statisti.add(statistics);
         Statistici statistici1 = new Statistici("Claudiu","VASLUI",50,180,20,3,100,1100,5,10,100);
         int i = statistici1.getPrBP();
-        String j = statistics.getUsername();
             if (statistics.getPrBP() > i) {
                 i = statistics.getPrBP();
-                j = statistics.getUsername();
-                System.out.println(j + " este atletul cu cel mai mare record la bench press din sala ");
+                System.out.println(statistics.getUsername() + " este atletul cu cel mai mare record la bench press din sala ");
             }
 
 

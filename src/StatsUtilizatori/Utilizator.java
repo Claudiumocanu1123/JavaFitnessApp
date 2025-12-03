@@ -201,7 +201,7 @@ public class Utilizator implements Visitable {
 
     void calculareGreutateIdeala() {
         int greatest = 0;
-        greatest = this.inaltime - 100 - 12;
+        greatest = this.inaltime - 112;
         System.out.print("Greutate noul tau cont cu succes: " + greatest + "\n");
     }
 
@@ -212,7 +212,7 @@ public class Utilizator implements Visitable {
             System.out.println("Recenzia acestui utilizator este de doua stele" + "\n");
         } else if (greutate >= 75 && greutate <= 85) {
             System.out.println("Recenzia acestui utilizator este de trei stele" + "\n");
-        } else if (greutate >= 72 && greutate <= 80) {
+        } else if (greutate >= 72 && greutate <= 75) {
             System.out.println("recenzia acestui utilizator este de patru stele" + "\n");
         } else
             System.out.println("Utilizatorul nu poate primi recenzie");
